@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D6EFED;
+}
+
+.guillotine>img {
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hided-word {
+    min-width: 20%;
+    max-width: 90%;
+    height: auto;
+    color: #6E85B7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.writen-letters {
+    min-width: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls>input {
+    width: 80px;
+    height: 90px;
+    font-size: 70px;
+}
+
+

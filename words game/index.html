@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="guillotine">
+            <img src="stages/stage7.png" id="stages">
+        </div>
+
+        <div class="hided-word" id="hided-word"></div>
+
+        <div class="lives-info" id="player-lives"></div>
+
+        <div class="writen-letters" id="all-guesssed-letters"></div>
+
+        <div class="controls">
+            <input type="text" class="guess-letter-input" id="letter">
+            <button class="check-letter-button" onclick="checkLetter(document.getElementById('letter'))">CHECK</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
